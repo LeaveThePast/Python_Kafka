@@ -6,7 +6,7 @@ conf = {'bootstrap.servers': 'localhost:9092', 'group.id': 'my_consumer_group', 
 # Создание объекта Consumer
 consumer = Consumer(conf)
 
-# Подписка на тему "test_topic"
+# Подписка на тему "Simple"
 consumer.subscribe(['Simple'])
 
 # Чтение и обработка сообщений

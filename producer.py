@@ -15,7 +15,7 @@ def delivery_report(err, msg):
         print('Сообщение успешно доставлено: {}'.format(msg.value().decode('utf-8')))
 
 
-# Отправка сообщения в тему "test_topic"
+# Отправка сообщения в тему "Simple"
 producer.produce('Simple', key='Simple', value='Привет, Kafka!', callback=delivery_report)
 
 # Ждем, пока все сообщения будут отправлены
