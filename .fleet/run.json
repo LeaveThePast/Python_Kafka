@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "type": "python",
+            "name": "Python producer",
+            "file": "producer.py",
+            "arguments": [],
+        },
+        {
+            "type": "python",
+            "name": "Python consumer",
+            "file": "consumer.py",
+            "arguments": [],
+        },
+        
+    ]
+}
